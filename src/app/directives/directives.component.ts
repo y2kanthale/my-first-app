@@ -15,6 +15,7 @@ export class DirectivesComponent implements OnInit {
   }
   onDisplayDetails() {
     this.displayDetails = !this.displayDetails;
-    this.log.push(this.log.length + 1);
+    // this.log.push(this.log.length + 1);
+    this.log.push(new Date());
   }
 }
